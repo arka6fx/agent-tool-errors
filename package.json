@@ -1,0 +1,21 @@
+{
+  "name": "agent-tool-errors",
+  "version": "0.1.0",
+  "description": "Sort tool and app failures into kinds an AI agent can act on",
+  "license": "MIT",
+  "author": "Arka Garai",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": ["src"],
+  "repository": { "type": "git", "url": "git+https://github.com/arka6fx/agent-tool-errors.git" },
+  "keywords": ["ai-agents", "llm", "tool-calling", "errors", "retry"],
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
